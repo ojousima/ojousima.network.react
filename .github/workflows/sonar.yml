@@ -21,7 +21,6 @@ jobs:
       working-directory: ./coverage
       run: |
         sed -i 's/\/home\/runner\/work\/ojousima.network.react\/ojousima.network.react\//\/github\/workspace\//g' lcov.info
-        sed -i 's/\/home\/runner\/work\/ojousima.network.react\/ojousima.network.react\//\/github\/workspace\//g' sonar-cloud-reporter.xml
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       env:
