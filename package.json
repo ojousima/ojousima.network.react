@@ -33,7 +33,7 @@
     ]
   },
   "jest": {
-    "testPathIgnorePatterns": [
+    "coveragePathIgnorePatterns": [
       "src/*.test.*"
     ]
   }
