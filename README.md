@@ -36,42 +36,27 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `yarn lint`
+Runs linter on code to verify code style and warn about common pitfalls.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Developing
+1. First, check out the latest master from GitHub. `git pull`
+2. Then, check out a branch describing the feature you want to add. `git checkout -b feature-pony`
+3. Be sure to unit test your pony by writing `src/Pony.test.js`. Test driven development is encouraged.
+4. Commit your tests. `git add src/Pony.test.js` `git commit -m "Add Pony tests"`.
+5. Implement your pony in `src/Pony.js`. Remember to add JSDoc-comments to implementation.
+6. Commit your pony `git add src/Pony.js` `git commit -m "Implement Pony"`.
+7. Test your pony. `yarn test`.
+8. Fix test errors.
+9. Commit your fixes. `git add src/Pony.js` `git commit -m "Fix Pony"`.
+10. Check test coverage. `yarn coverage`. Aim for at least 80% branch and line coverage on new code.
+..* Add tests if coverage wasn't enough, go to 3.
+11. Run eslint by `yarn lint`. 
+12. Fix Lint errors. `yarn lint -- --fix` if you want the computer to fix syntax.
+13. Commit your fixed file. `git add src/Pony.js` `git commit -m "Lint Pony"`.
+..* If you made changes, go to 7.
+14. Push your pony to GitHub. `git push origin pony`.
+15. Open a pull request to origin/master on GitHub. 
+16. Check continuous integration status checks. 
+..* If checks fail, fix failing parts. 
+17. Once checks pass, ask someone to review your work and merge the pull request.
