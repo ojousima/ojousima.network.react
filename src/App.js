@@ -1,7 +1,16 @@
+/**
+ * @file App mainpage
+ * @author CRE template
+ */
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+/**
+ * @brief Application entry point.
+ *
+ * @return {string} HTML of the app.
+ */
 function App() {
   return (
     <div className="App">
