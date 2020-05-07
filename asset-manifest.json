@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ojousima.network.react/static/css/main.d1b05096.chunk.css",
-    "main.js": "/ojousima.network.react/static/js/main.ea1d8345.chunk.js",
-    "main.js.map": "/ojousima.network.react/static/js/main.ea1d8345.chunk.js.map",
+    "main.js": "/ojousima.network.react/static/js/main.b6b3691d.chunk.js",
+    "main.js.map": "/ojousima.network.react/static/js/main.b6b3691d.chunk.js.map",
     "runtime-main.js": "/ojousima.network.react/static/js/runtime-main.1faf8521.js",
     "runtime-main.js.map": "/ojousima.network.react/static/js/runtime-main.1faf8521.js.map",
     "static/js/2.d835adf6.chunk.js": "/ojousima.network.react/static/js/2.d835adf6.chunk.js",
     "static/js/2.d835adf6.chunk.js.map": "/ojousima.network.react/static/js/2.d835adf6.chunk.js.map",
     "index.html": "/ojousima.network.react/index.html",
-    "precache-manifest.0c6f204aed60b39b34bb51c039937d00.js": "/ojousima.network.react/precache-manifest.0c6f204aed60b39b34bb51c039937d00.js",
+    "precache-manifest.12224e484c6dc8b9706dc8078ee0691d.js": "/ojousima.network.react/precache-manifest.12224e484c6dc8b9706dc8078ee0691d.js",
     "service-worker.js": "/ojousima.network.react/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/ojousima.network.react/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.d835adf6.chunk.js.LICENSE.txt": "/ojousima.network.react/static/js/2.d835adf6.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.1faf8521.js",
     "static/js/2.d835adf6.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.ea1d8345.chunk.js"
+    "static/js/main.b6b3691d.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ojousima.network.react/precache-manifest.0c6f204aed60b39b34bb51c039937d00.js"
+  "/ojousima.network.react/precache-manifest.12224e484c6dc8b9706dc8078ee0691d.js"
 );
 
 self.addEventListener('message', (event) => {
