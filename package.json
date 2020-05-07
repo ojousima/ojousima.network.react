@@ -1,5 +1,6 @@
 {
   "name": "ojousima.network.react",
+  "homepage": "/ojousima.network.react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,8 @@
     "build": "react-scripts build",
     "coverage": "react-scripts test --coverage --watchAll=false",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +38,8 @@
     "coveragePathIgnorePatterns": [
       "src/*.test.*"
     ]
+  },
+  "devDependencies": {
+    "execa": "^4.0.0"
   }
 }
