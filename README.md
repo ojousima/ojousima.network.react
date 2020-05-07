@@ -9,6 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=sqale_index)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
 
+Project is available at [GitHub Pages](https://ojousima.github.io/ojousima.network.react/)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -60,3 +62,4 @@ Runs linter on code to verify code style and warn about common pitfalls.
 16. Check continuous integration status checks. 
 ..* If checks fail, fix failing parts. 
 17. Once checks pass, ask someone to review your work and merge the pull request.
+18. Wait for the page to be updated at [GitHub Pages](https://ojousima.github.io/ojousima.network.react/)
