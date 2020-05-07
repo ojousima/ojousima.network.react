@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=alert_status)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=coverage)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=bugs)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=code_smells)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=ncloc)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ojousima_ojousima.network.react&metric=sqale_index)](https://sonarcloud.io/dashboard?id=ojousima_ojousima.network.react)
+
 ## Available Scripts
 
 In the project directory, you can run:
