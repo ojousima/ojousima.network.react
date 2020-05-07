@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ojousima.network.react/static/css/main.d1b05096.chunk.css",
+    "main.js": "/ojousima.network.react/static/js/main.ea1d8345.chunk.js",
+    "main.js.map": "/ojousima.network.react/static/js/main.ea1d8345.chunk.js.map",
+    "runtime-main.js": "/ojousima.network.react/static/js/runtime-main.1faf8521.js",
+    "runtime-main.js.map": "/ojousima.network.react/static/js/runtime-main.1faf8521.js.map",
+    "static/js/2.d835adf6.chunk.js": "/ojousima.network.react/static/js/2.d835adf6.chunk.js",
+    "static/js/2.d835adf6.chunk.js.map": "/ojousima.network.react/static/js/2.d835adf6.chunk.js.map",
+    "index.html": "/ojousima.network.react/index.html",
+    "precache-manifest.0c6f204aed60b39b34bb51c039937d00.js": "/ojousima.network.react/precache-manifest.0c6f204aed60b39b34bb51c039937d00.js",
+    "service-worker.js": "/ojousima.network.react/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/ojousima.network.react/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.d835adf6.chunk.js.LICENSE.txt": "/ojousima.network.react/static/js/2.d835adf6.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ojousima.network.react/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1faf8521.js",
+    "static/js/2.d835adf6.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.ea1d8345.chunk.js"
+  ]
+}
