@@ -15,6 +15,7 @@ jobs:
       with:
         # Disabling shallow clone is recommended for improving relevancy of reporting
         fetch-depth: 0
+    - run: npm ci
     - run: npm run-script coverage
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
