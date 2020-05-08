@@ -1,6 +1,12 @@
 'use strict';
 import React from 'react';
-import {fireEvent, render, within} from '@testing-library/react';
+import {
+  fireEvent,
+  render,
+  waitForElement,
+  within,
+} from '@testing-library/react';
+import {act} from 'react-dom/test-utils';
 import WebBle from './WebBle';
 jest.useFakeTimers();
 
@@ -27,10 +33,20 @@ test('renders RuuviTag scan button', () => {
 });
 
 test('RuuviTag scans for 10 seconds', async () => {
-  const {getByText} = render(<WebBle data-testid='webble'/>);
+  const {getByTestId, getByText} = render(<WebBle data-testid='webble'/>);
   mockBluetooth.requestLEScan.mockResolvedValueOnce(mockScan);
+
   fireEvent.click(getByText('Scan for RuuviTags'));
-  await Promise.resolve(); // Run any pending jobs in the PromiseJobs.
+  await Promise.resolve(); // Run any pending jobs in the PromiseJobs
+  act(() => {
+    jest.runAllTimers();
+  });
+  // Bug in Jest 24 / Node 12? Fails.
+  await waitForElement(() => getByTestId('webble'));
   expect(setTimeout).toHaveBeenCalledTimes(1);
   expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 10000);
+  act(() => {
+    jest.runAllTimers();
+  });
+  expect(mockScan.stop).toHaveBeenCalledTimes(1);
 });
