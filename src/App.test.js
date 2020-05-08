@@ -1,9 +1,10 @@
 import React from 'react';
-import {render} from '@testing-library/react';
+import {render, within} from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  const {getByText} = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders RuuviTag scan element', () => {
+  const {getByTestId} = render(<App />);
+  const appHeader = getByTestId('app-header');
+  const WebBleInHeader = within(appHeader).getAllByTestId('webble');
+  expect(WebBleInHeader.length).toBe(1);
 });
