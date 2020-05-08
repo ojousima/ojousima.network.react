@@ -40,9 +40,6 @@ test('RuuviTag scans for 10 seconds', async () => {
   mockBluetooth.requestLEScan.mockResolvedValueOnce(mockScan);
 
   fireEvent.click(getByText('Scan for RuuviTags'));
-  act(() => {
-    jest.runAllTimers();
-  });
   await waitForElement(() => getByTestId('webble'));
   expect(setTimeout).toHaveBeenCalledTimes(1);
   expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 10000);
